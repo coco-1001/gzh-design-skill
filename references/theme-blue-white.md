@@ -79,7 +79,8 @@
 > - 政策解读、热点分析、专业判断、对比分析可按原文使用；流程、步骤、FAQ、基础实操类文章不得自动新增
 > - 原文没有引言时，组件 2 整块不生成，左上方装饰性双引号也不得单独输出
 > - 引言中的重点词只从原文已有重点关系中映射，不得为了视觉效果改写原句
-> - 引言正文以黑色为主，可从原文已有加粗或承担核心判断的短语中选择 `1–2` 处使用品牌蓝 `#1E5876` 的行内文字强调；不整段变蓝，不大量高亮，不新增文字
+> - 引言正文以黑色为主；每篇通常只选择 `1–2` 个真正关键的关键词或短语，优先参考原文已有加粗内容、核心政策名称、时间节点和最关键的业务判断词；使用品牌蓝 `#1E5876` 背景、白色粗体文字，且只包裹原文中的连续文字
+> - 蓝底白字不得整段铺底，不得增加、删除或改写任何文字；本样式仅限引言卡，不得扩展到正文
 > - **引言组件左上方的装饰性双引号属于主题固定视觉元素，必须保留。该双引号不是正文内容，不属于“新增正文字符”，排版时不得因为“不能修改或增加正文文字”而删除。**固定沿用当前组件参数：颜色 `#1E5876`，位置、字号、字重、行高和间距不得改动
 > - 右下署名按文章实际作者填，未知则整行删掉，**不要固定写"甲木"**
 > - 蓝底白字标签仅在本卡片内使用（视觉焦点），正文中的关键词标签一律用浅蓝底深蓝字（组件 7b）
@@ -90,9 +91,9 @@
     <span leaf="">"</span>
   </p>
   <p style="font-size:16px;font-weight:800;color:#1C1917;margin:12px 0 8px;line-height:1.75;padding-left:4px;">
-    <span style="background:#1E5876;color:#FFFFFF;padding:2px 8px;border-radius:4px;"><span leaf="">{{高亮关键词}}</span></span>
+    <span style="background:#1E5876;color:#FFFFFF;padding:2px 8px;border-radius:4px;font-weight:800;"><span leaf="">{{高亮关键词}}</span></span>
     <span leaf="">{{金句中段}}</span>
-    <span style="background:#1E5876;color:#FFFFFF;padding:2px 8px;border-radius:4px;"><span leaf="">{{高亮关键词}}</span></span>
+    <span style="background:#1E5876;color:#FFFFFF;padding:2px 8px;border-radius:4px;font-weight:800;"><span leaf="">{{高亮关键词}}</span></span>
     <span leaf="">{{金句收尾}}</span>
   </p>
   <p style="text-align:right;font-size:12px;color:#9CA3AF;margin:8px 0 0;letter-spacing:1px;">
